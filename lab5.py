@@ -86,8 +86,8 @@ class Home:
             print("--------------------")
 
     # Сортування тварин за віком
-    def sortByAge(self):
-        self.pets.sort(key=lambda pet: pet.getAge())
+    def sort_by_age(self):
+        self.pets.sort(key=lambda pet: pet.get_age())
 
 
 # Функція пошуку друзів серед тварин
