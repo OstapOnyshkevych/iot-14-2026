@@ -47,10 +47,7 @@ class Pet:
 
     # Перевірка ввічливості тварини
     def isPolite(self):
-        if "Hello" in self.greeting:
-            return True
-        else:
-            return False
+        return "Hello" in self.greeting
 
     # Виведення інформації про тварину
     def showInfo(self):
